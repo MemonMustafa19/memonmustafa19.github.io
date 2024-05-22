@@ -979,19 +979,12 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-
 #footer {
-  padding: 60px 0; /* Adjust padding as needed */
   background: #f7f8f9;
   color: #45505b;
   font-size: 14px;
   text-align: center;
-}
-
-#footer .container {
-  max-width: 1140px; /* Ensure this matches other sections */
-  margin: 0 auto; /* Center the container */
-  padding: 0 15px; /* Match padding with other sections */
+  padding: 30px 0;
 }
 
 #footer h3 {
@@ -1004,7 +997,7 @@ section {
 }
 
 #footer p {
-  font-size: 15px; /* Ensure px is included */
+  font-size: 15;
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
@@ -1035,7 +1028,10 @@ section {
   text-decoration: none;
 }
 
-#footer .copyright,
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
+
 #footer .credits {
-  margin-bottom: 0;
+  font-size: 13px;
 }
