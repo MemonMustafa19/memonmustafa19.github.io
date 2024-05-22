@@ -809,7 +809,7 @@ section {
 .services .portfolio-details-slider .swiper-slide img {
   width: 100%;
   height: auto;
-  max-height: 400px; /* Adjust the max-height to make images smaller */
+  max-height: 600px; /* Adjust the max-height to make images smaller */
   object-fit: cover; /* Ensures images cover the area without distortion */
   margin: 0 auto; /* Center the images */
   padding: 10px; /* Add padding around the images */
