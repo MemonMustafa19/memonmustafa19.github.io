@@ -979,6 +979,7 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
 #footer {
   padding: 60px 0; /* Adjust padding as needed */
   background: #f7f8f9;
@@ -988,7 +989,7 @@ section {
 }
 
 #footer .container {
-  max-width: 1140px; /* Match the max-width of other sections */
+  max-width: 1140px; /* Ensure this matches other sections */
   margin: 0 auto; /* Center the container */
   padding: 0 15px; /* Match padding with other sections */
 }
@@ -1003,7 +1004,7 @@ section {
 }
 
 #footer p {
-  font-size: 15px; /* Fixed the missing 'px' */
+  font-size: 15px; /* Ensure px is included */
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
@@ -1034,6 +1035,7 @@ section {
   text-decoration: none;
 }
 
-#footer .copyright, #footer .credits {
+#footer .copyright,
+#footer .credits {
   margin-bottom: 0;
 }
