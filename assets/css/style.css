@@ -803,6 +803,41 @@ section {
   fill: #11dbcf;
 }
 
+/* Holistic Section */
+
+/* Ensure images in Holistic Experience Artefact are slightly smaller */
+.services .portfolio-details-slider .swiper-slide img {
+  width: 100%;
+  height: auto;
+  max-height: 400px; /* Adjust the max-height to make images smaller */
+  object-fit: cover; /* Ensures images cover the area without distortion */
+  margin: 0 auto; /* Center the images */
+  padding: 10px; /* Add padding around the images */
+}
+
+/* Enhance spacing and alignment */
+.services .portfolio-wrap {
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Section title styling */
+.services .section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #45505b;
+}
+
+.services .section-title p {
+  margin-bottom: 40px;
+}
+
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
