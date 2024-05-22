@@ -659,6 +659,37 @@ section {
   border-radius: 8px;
 }
 
+/* Add the new consistent font coloring styles here */
+.portfolio-details .portfolio-info {
+  color: #444; /* Consistent font color */
+  font-family: "Open Sans", sans-serif; /* Ensure consistent font family */
+}
+
+.portfolio-details .portfolio-info h2,
+.portfolio-details .portfolio-info h4 {
+  color: #012970; /* Ensure consistent heading color */
+}
+
+.portfolio-details .portfolio-info p {
+  color: #555; /* Ensure consistent paragraph color */
+  line-height: 1.6; /* Improve readability */
+  margin-bottom: 15px; /* Add space between paragraphs */
+}
+
+.portfolio-details .portfolio-info strong {
+  color: #012970; /* Highlighted text color */
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style-type: disc; /* Ensure list style */
+  padding-left: 20px; /* Add padding for lists */
+}
+
+.portfolio-details .portfolio-info ul li {
+  margin-bottom: 10px; /* Add space between list items */
+  color: #555; /* Ensure consistent list item color */
+}
+
 
 /*--------------------------------------------------------------
 # Services
@@ -929,10 +960,6 @@ section {
     font-size: 12px;
   }
 }
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
 
 
 /*--------------------------------------------------------------
