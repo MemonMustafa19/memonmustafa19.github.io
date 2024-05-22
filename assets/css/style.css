@@ -805,17 +805,17 @@ section {
 
 /* Holistic Section */
 
-/* Ensure images in Holistic Experience Artefact are slightly smaller with rounded corners */
+/* Ensure images in Holistic Experience Artefact are slightly smaller with rounded corners and adjusted position */
 .services .portfolio-details-slider .swiper-slide img {
   width: 100%;
   height: auto;
   max-height: 600px; /* Adjust the max-height to make images smaller */
   object-fit: cover; /* Ensures images cover the area without distortion */
+  object-position: top; /* Adjusts the position to show the top part of the image */
   margin: 0 auto; /* Center the images */
   padding: 10px; /* Add padding around the images */
   border-radius: 8px; /* Add rounded corners */
 }
-
 /* Enhance spacing and alignment */
 .services .portfolio-wrap {
   padding: 20px;
