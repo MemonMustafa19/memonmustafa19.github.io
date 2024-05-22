@@ -647,9 +647,13 @@ section {
   color: #012970;
 }
 
+.portfolio-info h4 {
+  color: #272829;
+}
+
 .portfolio-info p {
   font-size: 15px;
-  color: #556877;
+  color: #272829;
   line-height: 24px;
   margin-bottom: 15px;
 }
@@ -659,36 +663,11 @@ section {
   border-radius: 8px;
 }
 
-
-.portfolio-details .portfolio-info {
-  color: #272829; /* Consistent black font color */
-  font-family: "Open Sans", sans-serif; /* Ensure consistent font family */
-}
-
-.portfolio-details .portfolio-info h2,
-.portfolio-details .portfolio-info h4 {
-  color: #272829; /* Ensure consistent black heading color */
-}
-
-.portfolio-details .portfolio-info p {
-  color: #272829; /* Ensure consistent black paragraph color */
-  line-height: 1.6; /* Improve readability */
-  margin-bottom: 15px; /* Add space between paragraphs */
-}
-
-.portfolio-details .portfolio-info strong {
-  color: #272829; /* Highlighted text color */
-}
-
-.portfolio-details .portfolio-info ul {
+.portfolio-info ul {
   list-style-type: disc; /* Ensure list style */
   padding-left: 20px; /* Add padding for lists */
 }
 
-.portfolio-details .portfolio-info ul li {
-  margin-bottom: 10px; /* Add space between list items */
-  color: #272829; /* Ensure consistent list item color */
-}
 
 
 /*--------------------------------------------------------------
