@@ -1037,5 +1037,7 @@ section {
 }
 
 #footer .container {
-  padding: 0 145px; /* Ensure the padding matches other sections */
+  max-width: 1140px; /* Match the max-width of the other sections */
+  margin: 0 auto; /* Center the container */
+  padding: 0 15px; /* Match padding with other sections */
 }
