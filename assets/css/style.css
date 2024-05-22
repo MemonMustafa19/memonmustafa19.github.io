@@ -814,7 +814,6 @@ section {
   object-position: top; /* Adjusts the position to show the top part of the image */
   margin: 0 auto; /* Center the images */
   padding: 10px; /* Add padding around the images */
-  border-radius: 8px; /* Add rounded corners */
 }
 /* Enhance spacing and alignment */
 .services .portfolio-wrap {
@@ -1035,4 +1034,8 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+#footer .container {
+  padding: 0 15px; /* Ensure the padding matches other sections */
 }
